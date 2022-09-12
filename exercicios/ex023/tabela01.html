@@ -12,21 +12,15 @@
 
         table {
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
-            border: 1px solid black;
-        }
-
-        tr.linha {
-            background-color: gray;
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
-        }
-
-        td.dado {
-            background-color: yellow;
+            text-align: center; /* Alinhamento horizontal (left, center, right)*/
+            vertical-align: middle; /* Alinhamento vertical (top, bottom, middle)*/
         }
     </style>
 </head>
@@ -38,7 +32,7 @@
 
     <!-- Se a hierarquia não for obedecida os dado vão aparecer ou antes, ou depois da tabela -->
     <table>
-        <tr class="linha"> <!-- Primeira Linha -->
+        <tr> <!-- Primeira Linha -->
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
@@ -51,7 +45,7 @@
         <tr> <!-- Terceira Linha -->
             <td>A3</td>
             <td>B3</td>
-            <td class="dado">C3</td>
+            <td>C3</td>
         </tr>
         <tr> <!-- Quarta Linha -->
             <td>A4</td>
