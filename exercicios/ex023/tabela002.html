@@ -27,6 +27,16 @@
             color: white;
         }
 
+        tbody > tr:nth-child(even) { /*even(par) ou 2n */
+            background-color: white;
+            font-weight: bold;
+            }
+
+        tbody > tr:nth-child(odd) { /* odd(ímpar) ou 2n-1 */
+            background-color: lightgray;
+            text-decoration: underline;
+        }
+
         td, th {
             border: 1px solid black;
             padding: 8px;
@@ -50,6 +60,7 @@
                 Table Row, Table Data e Table Head
 
         Nota: Para títulos sempre usar o Table Head (TH) e quando for usar dado usar o Table Data (TD)
+        Nota2: Para criar o efeito zebrado deve ser o usado a pseudo-classe nth-child(2n)
     -->
 
     <table>
