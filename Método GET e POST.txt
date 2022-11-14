@@ -1,0 +1,8 @@
+Método GET e POST
+
+GET é o método padrão. Usar quando os dados não forem sensiveis como nome de pessoas,
+peso. Usando GET só podemos enviar até três mil byte (três mil letras). Não se pode usar o
+GET para envios de fotos
+
+POST é usado para dados sensiveis como senhas, número do cartão de crédito. Com o método POST
+é possivel enviar mais de três mil byte (três mil letras) e também podemos enviar arquivos
